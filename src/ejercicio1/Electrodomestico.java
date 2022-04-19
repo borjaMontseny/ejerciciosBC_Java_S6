@@ -93,7 +93,7 @@ public class Electrodomestico {
 		}
 	}
 	
-	private void precioFinal() {
+	public void precioFinal() {
 		if (this.consumoEnergetico == 'A') {
 			this.precio += 100.0;
 		}else if(this.consumoEnergetico == 'B') {
@@ -120,6 +120,10 @@ public class Electrodomestico {
 		}
 		
 	};
+	
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
 	
 
 }

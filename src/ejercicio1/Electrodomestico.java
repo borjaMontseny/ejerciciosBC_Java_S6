@@ -41,6 +41,7 @@ public class Electrodomestico {
 		this.color = COLORDEFECTO;
 		this.consumoEnergetico = CONSUMODEFECTO;
 		this.peso = PESODEFECTO;
+	
 	}
 
 	public Electrodomestico(double precio, double peso) {
@@ -48,6 +49,7 @@ public class Electrodomestico {
 		this.color = COLORDEFECTO;
 		this.consumoEnergetico = CONSUMODEFECTO;
 		this.peso = peso;
+	
 	}
 
 	public Electrodomestico(double precio, String color, char consumo, double peso) {
@@ -55,6 +57,7 @@ public class Electrodomestico {
 		this.comprobarColor(color);
 		this.comprobarConsumoEnergetico(consumo);
 		this.peso = peso;
+		
 	}
 	
 	// Métodos

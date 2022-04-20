@@ -14,7 +14,7 @@ public class Ejercicio1App {
 		arrayEjemplo[6] = new Television(395.0, "Negro", 'F', 80.0, 47.0, true);
 		arrayEjemplo[7] = new Television(800.0, "Blanco", 'A', 50.0, 100.0, false);
 		arrayEjemplo[8] = new Television(600.0, "Azul", 'B', 70.0, 90.0, true);
-		arrayEjemplo[9] = new Television(700.0, "Rojo", 'F', 80.0, 47.0, false);
+		arrayEjemplo[9] = new Television();
 		
 		double precioTelevision = 0.0;
 		double precioLavadora = 0.0;

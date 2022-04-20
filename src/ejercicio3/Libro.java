@@ -16,7 +16,7 @@ public class Libro {
 		this.numeroPaginas = numeroPaginas;
 	}
 	
-	// Getters & Getters
+	// Getters & Setters
 	public int getCodigoISBN() {
 		return codigoISBN;
 	}

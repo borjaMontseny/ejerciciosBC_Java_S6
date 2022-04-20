@@ -8,7 +8,7 @@ public class Espectador {
 	private double dinero;
 
 	// Constructores
-	public Espectador() {
+	public Espectador( ) {
 		this.nombre = generarNombres();
 		this.edad = generarEdad();
 		this.dinero = generarDinero();

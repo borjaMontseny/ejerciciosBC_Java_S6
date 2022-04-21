@@ -1,6 +1,9 @@
 package ejercicio5;
 
 public class Profesor extends Persona {
+		// TODO Auto-generated constructor stub
+	
+
 	// Atributos
 	private String materia;
 
@@ -13,6 +16,10 @@ public class Profesor extends Persona {
 		}
 	}
 
+	// Constructores
+	public Profesor(String nombre, int edad, boolean sexo) {
+		super(nombre, edad, sexo);
+	}
 	// Métodos
 	public boolean asistencia() {
 		int randomNum = (int) (Math.random() * 101); // 0 a 100

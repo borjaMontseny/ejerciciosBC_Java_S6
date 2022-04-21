@@ -4,18 +4,10 @@ public class ejercicio6App {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Espectador e1 = new Espectador();
-		System.out.println(e1.getDinero() + " nombre " + e1.getNombre() + " edad " + e1.getEdad());
+		Pelicula pelicula1 = new Pelicula ("Misión Imposible", 120, 14, "Juanjo Baños");
 		
 		
-		Cine cine = new Cine();
 		
-			
-		
-		
-		 
-		//Asiento a1 = new Asiento(2, 3);
-		//System.out.println(a1);
 	}
 
 }

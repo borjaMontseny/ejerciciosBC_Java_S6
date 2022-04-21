@@ -14,10 +14,10 @@ public class Pelicula {
 	// Por defecto:
 
 	public Pelicula() {
-		this.titulo = "Batman";
+		this.titulo = "Película Blank";
 		this.duracion = 180;
-		this.edad = 20;
-		this.director = "Orangutan Jones";
+		this.edad = 16;
+		this.director = "Director Blank";
 
 	}
 
